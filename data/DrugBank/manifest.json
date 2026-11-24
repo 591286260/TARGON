@@ -1,0 +1,101 @@
+{
+  "dataset": "DrugBank",
+  "positive_count": 6851,
+  "negative_count": 6851,
+  "pair_seed": 20261109,
+  "cold_seed": 88,
+  "negative_seed": 88,
+  "files_sha256": {
+    "attributes.npz": "a87fa180c1f0f406b1bdbc2c54dabd3c4b0bc89f1b4e1b4a21fcb6f9bbcd997d",
+    "kernels.npz": "e7ad999f3b2a2c615d37da45f019ecb3e6063167c4f6303255bb8f2779f683cb",
+    "folds.npz": "855f08b8a341a98398f1ac73f50212f91b138e8805804946377c6bd04eb6c0d9",
+    "pairs.csv.gz": "219b0c569b7ebdf00f9834265cb0d01527b1577d14be2e92277961933a7e38e9"
+  },
+  "node_order_sha256": "e4f5d97223c1839c7fd4a3766062246d4a621c693a1ee170fc412d9d4f6c458f",
+  "partitions": {
+    "pair": [
+      {
+        "fold": 1,
+        "train_rows": 10961,
+        "heldout_rows": 2741,
+        "train_pairs_sha256": "60fccf5538829b798fbb5ada6d9de39a188e629ae9f46da0db0dcef144894870",
+        "heldout_pairs_sha256": "dc3a8c6fbec19abbfa1d58686b9520b3f73e5f65634add29c1d31d996372f304",
+        "aug96_sha256": "60fffebe4d4bd1f75cf4a1941810a216d7ddffa0d2c18167c09d489aa3436fcf"
+      },
+      {
+        "fold": 2,
+        "train_rows": 10961,
+        "heldout_rows": 2741,
+        "train_pairs_sha256": "8981ad38b62a20766a77d834d1e0a1f63a254dd6e8ccc97e0331f70da4fce186",
+        "heldout_pairs_sha256": "1d4cdf38aa4ac6c9ef440398a91c0e7623f389d58504d7466d2e3c50c58835d0",
+        "aug96_sha256": "d10a6fd6f43a5a4ff5a9ffcb627fa2bbbbf6eb44c53e55cd292a28ef770e6335"
+      },
+      {
+        "fold": 3,
+        "train_rows": 10962,
+        "heldout_rows": 2740,
+        "train_pairs_sha256": "d4265e013c3ebc0843cda7f21a7ce1b437fa5025799a20e73e6bdeff9d5fe9a1",
+        "heldout_pairs_sha256": "9787daa0310bf304e100666cac186904f5a2c861bfa83f805fb14945fb52b7bd",
+        "aug96_sha256": "26747c19df2f2dd8be20c22419a48b314504c69ef5caf7665184f01ed99f2595"
+      },
+      {
+        "fold": 4,
+        "train_rows": 10962,
+        "heldout_rows": 2740,
+        "train_pairs_sha256": "dcbcba5c57501aa0804f7f6f574507bc8817c702f1cb26141c6c6908a3ce7ef4",
+        "heldout_pairs_sha256": "18e2834283dd803b0f2c114d1466cd7a17e328d5f0a0fb5bcd541bc68eb5bf08",
+        "aug96_sha256": "53eb447442fc26582c27a27674acc755e7625de06f3f92c436a7ba2bf7703bd2"
+      },
+      {
+        "fold": 5,
+        "train_rows": 10962,
+        "heldout_rows": 2740,
+        "train_pairs_sha256": "fa45ee5a4a483ddb0a72f10eac342ed5fbb52b2ddecc26778f47c1b5504ed579",
+        "heldout_pairs_sha256": "40a9c249de47ef9512bf3c27f477a0763f59c6c82f435df8950e22c61a8ebd97",
+        "aug96_sha256": "65ee0ef3e8a617f68f2f5004b167b894cd61b6c63d041c7c4a13a7571502408a"
+      }
+    ],
+    "cold": [
+      {
+        "fold": 1,
+        "train_rows": 10973,
+        "heldout_rows": 2729,
+        "train_pairs_sha256": "5d776ec32b6fded569ec06e3f14a3d9d52294c1aa20731474a6ac628407d1831",
+        "heldout_pairs_sha256": "b245f5e5a0140a917a91b27920b7c0a434427e5f40a4b579a9a9bd7bc172cb3f",
+        "aug96_sha256": "b411191fb7e605aa78b677d177c123f8d211aeb884e2e2fe5f097547919e5717"
+      },
+      {
+        "fold": 2,
+        "train_rows": 10770,
+        "heldout_rows": 2932,
+        "train_pairs_sha256": "a9ebb05debc378bcf43d88bf33d8b1572e798458122e18e91748a7b3ed85ea60",
+        "heldout_pairs_sha256": "eea484a22d3d0908355794bddb68b0837cf7fcef89a87b7e3740037eb4229db1",
+        "aug96_sha256": "c2b40c69f939b76d824e0bf869f9183715eaf68c4a23e15c8bde76145b2d49dd"
+      },
+      {
+        "fold": 3,
+        "train_rows": 11144,
+        "heldout_rows": 2558,
+        "train_pairs_sha256": "85923f063d24ca197be3afcb37c540c095e4b2de75574253f2266d280c17ca2d",
+        "heldout_pairs_sha256": "e867274445aa8514d53498b57f7adc62d6390b190c18045fb8b4d932345811fe",
+        "aug96_sha256": "c06ccd00d8058c9018aa41693e716f9fbbe9be89da0ceefe3af9d9e560f01cf3"
+      },
+      {
+        "fold": 4,
+        "train_rows": 10908,
+        "heldout_rows": 2794,
+        "train_pairs_sha256": "fec44dd7e4117e9c22c80d3e6684ad3f5e0ab4787e75c0a3ce4cf72b9e33ec13",
+        "heldout_pairs_sha256": "e1d893cbf25019fa395de9ccf784159498b7314817aa5577c7149a8ee3a9ed95",
+        "aug96_sha256": "8aed231937f1993d73e76d64f18e0e47f810145fd368d0bb2f9322732b0ad25a"
+      },
+      {
+        "fold": 5,
+        "train_rows": 11013,
+        "heldout_rows": 2689,
+        "train_pairs_sha256": "2e55c1889939856e0a1252a2b724904ac0242b9797dcdd160cc108475ef45845",
+        "heldout_pairs_sha256": "f911b66d67be5de3ed66b9841f84bd5d5aaa01777e0f8a5ada46507710f3df8a",
+        "aug96_sha256": "6e733c8c6932de0082bfa2e64eda8fb88246fcfa0c97f12d537aea2b9f8815c3"
+      }
+    ]
+  }
+}

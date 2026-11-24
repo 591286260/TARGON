@@ -1,0 +1,95 @@
+{
+  "Davis": {
+    "config": {
+      "arm": "full_global",
+      "augmented": true,
+      "candidate": "fixed_config",
+      "check_every": 5,
+      "contrastive": 0.0,
+      "dropout": 0.5,
+      "feature_mode": "aug96",
+      "full_alphas": [
+        0.5,
+        0.6,
+        0.8
+      ],
+      "fusion_mode": "global",
+      "head": "hybrid",
+      "head_dropout": 0.2,
+      "hidden": 1024,
+      "id_dim": 32,
+      "layers": 2,
+      "lr": 0.0003,
+      "max_epochs": 160,
+      "min_epochs": 30,
+      "name": "aug_id_hybrid",
+      "patience": 35,
+      "pretrain_epochs": 0,
+      "variant": "full_global",
+      "weight_decay": 0.003
+    },
+    "epochs": 50
+  },
+  "DrugBank": {
+    "config": {
+      "arm": "full_global",
+      "augmented": true,
+      "candidate": "fixed_config",
+      "check_every": 5,
+      "contrastive": 0.0,
+      "dropout": 0.2,
+      "feature_mode": "aug96",
+      "full_alphas": [
+        0.4,
+        0.8,
+        0.95
+      ],
+      "fusion_mode": "global",
+      "head": "hybrid",
+      "head_dropout": 0.2,
+      "hidden": 128,
+      "id_dim": 32,
+      "layers": 2,
+      "lr": 0.001,
+      "max_epochs": 160,
+      "min_epochs": 30,
+      "name": "aug_id_joint",
+      "patience": 35,
+      "pretrain_epochs": 0,
+      "variant": "full_global",
+      "weight_decay": 0.003
+    },
+    "epochs": 20
+  },
+  "KIBA": {
+    "config": {
+      "arm": "full_global",
+      "augmented": true,
+      "candidate": "fixed_config",
+      "check_every": 5,
+      "contrastive": 0.0,
+      "dropout": 0.45,
+      "feature_mode": "aug96",
+      "full_alphas": [
+        0.01,
+        0.2,
+        0.95
+      ],
+      "fusion_mode": "global",
+      "head": "hybrid",
+      "head_dropout": 0.5,
+      "hidden": 128,
+      "id_dim": 32,
+      "layers": 2,
+      "lr": 0.001,
+      "max_epochs": 160,
+      "min_epochs": 30,
+      "name": "aug_interaction",
+      "patience": 35,
+      "pretrain_epochs": 0,
+      "variant": "full_global",
+      "weight_decay": 0.01
+    },
+    "epochs": 45
+  }
+}

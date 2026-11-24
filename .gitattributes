@@ -1,0 +1,5 @@
+# Preserve exact bytes for the checked source and benchmark inputs.
+* -text
+*.py diff
+*.md diff
+*.json diff
